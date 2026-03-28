@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c16d4c9e6a52544902df8577bd4ec7, type: 3}
+  m_Name: 03_Micro
+  m_EditorClassIdentifier: 
+  questionText: Select the correct statement.
+  referenceImage: {fileID: 0}
+  explanationText: Household appliances are connected in parallel so that if one
+    appliance fuses, it does not affect the working of other appliances. Fuse is
+    connected in series so that when it burns out, it will open the entire circuit
+    and stop the current through the circuit components.
+  options:
+  - Household appliances are connected in parallel with each other.
+  - Fuse is connected in parallel with household appliances.
+  - Fuse is connected in series with the main supply.
+  - Both A and C
+  correctOptionIndex: 3
+  correctDropId: 
+  correctValue: 0
+  tolerance: 0.1

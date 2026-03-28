@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c16d4c9e6a52544902df8577bd4ec7, type: 3}
+  m_Name: 02_Micro
+  m_EditorClassIdentifier: 
+  questionText: 'If three bulbs each have a ratings of 100 watts and 220 volts are
+    connected in a
+
+    parallel combination then the equivalent resistance of the
+    combination will be____.'
+  referenceImage: {fileID: 0}
+  explanationText: "Resistance of one bulb = V\xB2 / P\n\nR = 484 \u03A9\n\nEquivalent
+    resistance of the circuit = R / 3\n\n= 161.33 \u03A9"
+  options:
+  - "484 \u03A9"
+  - "161.33 \u03A9"
+  - "1452 \u03A9"
+  - "242 \u03A9"
+  correctOptionIndex: 1
+  correctDropId: 
+  correctValue: 0
+  tolerance: 0.1

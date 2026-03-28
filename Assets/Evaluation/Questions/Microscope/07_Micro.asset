@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c16d4c9e6a52544902df8577bd4ec7, type: 3}
+  m_Name: 07_Micro
+  m_EditorClassIdentifier: 
+  questionText: Three bulbs of ratings (40W, 220V), (50W, 220V) and (60W, 220V) respectively
+    are connected in parallel to a 220V mains. Then which of these bulbs will glow
+    more?
+  referenceImage: {fileID: 0}
+  explanationText: "Actual power consumed \n\U0001D443\n=\n\U0001D449\n\U0001D460\n2\n\U0001D445\nP=\nR\nV\ns\n2\n\t\u200B\n\n\t\u200B\n\n
+    where \n\U0001D449\n\U0001D460\nV\ns\n\t\u200B\n\n is the supply voltage and
+    the resistance of electrical appliances \n\U0001D445\n=\n\U0001D449\n\U0001D45F\n2\n\U0001D443\n\U0001D45F\nR=\nP\nr\n\t\u200B\n\nV\nr\n2\n\t\u200B\n\n\t\u200B\n\n
+    where \n\U0001D449\n\U0001D45F\nV\nr\n\t\u200B\n\n and \n\U0001D443\n\U0001D45F\nP\nr\n\t\u200B\n\n
+    are the rated voltage and power respectively. So from these two equations we
+    can say that a higher rating bulb will glow more."
+  options:
+  - (40 W, 220 V)
+  - (60 W, 220 V)
+  - (50 W, 220 V)
+  - All will glow with the same brightness
+  correctOptionIndex: 1
+  correctDropId: 
+  correctValue: 0
+  tolerance: 0.1

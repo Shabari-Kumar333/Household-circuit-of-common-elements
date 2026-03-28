@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c16d4c9e6a52544902df8577bd4ec7, type: 3}
+  m_Name: 04_Micro
+  m_EditorClassIdentifier: 
+  questionText: The fuse wire should have_______.
+  referenceImage: {fileID: 0}
+  explanationText: A fuse wire should have a high resistance so that a lot of heat
+    is generated and it is easier for the fuse wire to reach its melting point. Also,
+    a fuse wire should have a low melting point so that it can melt easily.
+  options:
+  - high melting point and high resistance
+  - low melting point and low resistance
+  - low melting point and high resistance
+  - high melting point and low resistance
+  correctOptionIndex: 2
+  correctDropId: 
+  correctValue: 0
+  tolerance: 0.1
